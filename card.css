@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aquamarine; */
+    background:linear-gradient(red, transparent),
+               linear-gradient(to top left, lime, transparent),
+               linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+
+}
+
+.container{
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    margin-top: 100px;
+    /* border: 1px solid blue; */
+    margin: 20px;
+    box-shadow: 1px 2px 10px  black;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    flex-wrap: wrap;
+
+}
+.container:hover{
+    /* transform: scale(1,.5); */
+    transform: translateY(-20px);
+  /* transition: .3s transform; */
+}
+#title{
+    margin-left: 10px; font-size: 16px; font-family: Arial; font-weight: 600;
+}
+.imge img{
+    width: 90%;
+    margin: 9px;
+}
+table{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.dis{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+button{
+    background-color: rgb(20, 230, 83);
+    color: blue;
+    font-size: 20px;
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px blue;
+}
+button:hover{
+    background: rgb(88, 238, 88);
+    color: gray;
+}
+.Raushan{
+    display: flex;
+    /* border: 1px solid blue; */
+}
